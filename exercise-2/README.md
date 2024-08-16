@@ -28,9 +28,14 @@
 
 ### Pending Cases Analysis
 - **Histogram of Processing Times**: The histogram displays two distinct groups of pending cases—one cluster around 600-700 days and another around 1,000 days—indicating varying factors affecting resolution times.
-- **Resolved Cases**: Generally non-pending cases were resolved withing the first 100 days.
+- **Resolved Cases**: Generally non-pending cases were resolved within the first 100 days.
 ![img.png](../img/processing_time_histogram.png)
-- 
+
+### Application Types
+- Federal forms like I-589 and I-485 have higher denial rates.
+- I-589s especially have high rates of denials, which would make sense that a client seeking asylum would have less of a support network, and would then be more likely to make administrative errors that would result in a denial.
+![img.png](../img/denial_rates.png)
+
 ## Data Recording Enhancements
 
 For clients aged 20 and under, consider adding the following data:
@@ -43,3 +48,4 @@ For clients aged 20 and under, consider adding the following data:
 - **Language Proficiency:** To gauge their level, especially if they're still learning.
 
 To enhance our tracking, we could ask clients to update us on any demographic or life changes during each consultation. Additionally, we should keep a timeline of these changes to analyze their impact on outcomes. For instance, if a client moves from middle school to high school, we could create a "changed schools" true/false column to analyze this transition.
+
